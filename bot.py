@@ -4,7 +4,7 @@ import re
 import os
 import json
 
-TOKEN = "7971738148:AAH_VLC9JC5VClGxyEMQX-xPu8siw0HbU7I"
+TOKEN = "7971738148:AAHzMoMs0Zve7p5mce_nizxD98EWnh5Dpsk"
 CHANNEL_ID = "@NIS_TG"
 
 bot = telebot.TeleBot(TOKEN)
@@ -116,3 +116,4 @@ def go_home(message):
 
 print("✅ Бот запущен и автоматически отслеживает канал @NIS_TG")
 bot.polling(none_stop=True)
+
